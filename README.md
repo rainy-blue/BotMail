@@ -8,6 +8,7 @@ Supports attachments, dynamic names, and emphases (bold, color, etc.)
 
 
 
+
 Use:
 
 **Must enable less secure app access for your email account in order to log in using BotMail (Active TLS Encryption)**
@@ -30,15 +31,18 @@ Use:
 
 
 
+
 Sending speeds: **Under testing. Will be updated**
 
 For emails with attachment payloads of <1 MB: ~6 emails per second
+
 
 Max emails: **Under testing. Will be updated**
 
 Depending on the size of the email (with attachment), your email provider may place a cap on the amount of emails sent in a short time period. 
 
 **If first time using program, do not send more than 150 emails of >1.5MB size within a 2 hour period. Google WILL DISABLE your account temporarily for suspicious activity (ranges 2-24 hr suspension). Once less-secure app access has been turned on and program has been used for at least 3 days, then this max capacity can be expanded.**
+
 
 
 
