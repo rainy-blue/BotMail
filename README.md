@@ -7,6 +7,7 @@ Supports attachments, dynamic names, and emphases (bold, color, etc.)
 **Error codes will be documented**
 
 Use:
+
 **Must enable less secure app access for your email account in order to log in using BotMail (Active TLS Encryption)**
 (1) Create list of recipients as Excel file with columns of [CONTACT NAME, EMAIL ADDRESS, COMPANY] **do not name columns**
 (2) Excel file must be in PATH
