@@ -13,12 +13,19 @@ Use:
 **Must enable less secure app access for your email account in order to log in using BotMail (Active TLS Encryption)**
 
 (1) Create list of recipients as Excel file with columns of [CONTACT NAME, EMAIL ADDRESS, COMPANY] **do not name columns**
+
 (2) Excel file must be in PATH
+
 (3) Edit attachment name in BotMail.py for all instances (see notes)
+
 (4) Run program and enter Excel file name
+
 (5) Check table to make sure all contact entries are accurate
+
 (6) Log into email address and fill out email
+
 (7) A test email will first be sent to the logged in email address. Check to make sure everything looks right. In this test email, the dynamic contact name will appear as your email address, NOT your name - in the emails that will be sent to contact list, these will be replaced with CONTACT NAME. Dynamic company names will appear as 'COMPANYNAMEWILLBEHERE' and be replaced by COMPANY in emails that will be sent out.
+
 (8) Confirm and send emails. Wait for success message and for program to self-terminate.
 
 
