@@ -6,10 +6,7 @@ Supports attachments, dynamic names, and emphases (bold, color, etc.)
 **Currently in process of developing user interface using PyQt** 
 **Error codes will be documented**
 
-
-
-
-Use:
+##Use:
 
 **Must enable less secure app access for your email account in order to log in using BotMail (Active TLS Encryption)**
 
@@ -32,25 +29,24 @@ Use:
 
 
 
-Sending speeds: **Under testing. Will be updated**
+##Sending speeds: **Under testing. Will be updated**
 
 For emails with attachment payloads of <1 MB: ~6 emails per second
 
 
-Max emails: **Under testing. Will be updated**
+##Max emails: **Under testing. Will be updated**
 
 Depending on the size of the email (with attachment), your email provider may place a cap on the amount of emails sent in a short time period. 
 
 **If first time using program, do not send more than 150 emails of >1.5MB size within a 2 hour period. Google WILL DISABLE your account temporarily for suspicious activity (ranges 2-24 hr suspension). Once less-secure app access has been turned on and program has been used for at least 3 days, then this max capacity can be expanded.**
 
-
-
-
-Notes:
+##Notes:
 - An 'undo' feature and 'back' button will be added in future versions. 
 - An option to edit contact entries in the table directly will be added in future versions. This will also update the Excel file.
 - Email text body is currently inserted paragraph by paragraph. In future versions, there will be features to (1) type whole email body in program with all typography emphases features and (2) 'browse' for word document (.doc or .docx) with prewritten email and automatically parse and convert to HTML script. In-program text editing also supported for this option.
 - Currently only supports Gmail, Yahoo, Outlook, and Hotmail. Support for more domains will be added in future versions.
 - Excel file (.xlsx) needs to be manually typed as user input. A 'browse' option to locate file and auto-generate directory path will be added in future versions.
-- Attachment payloads currently need to be manually loaded by editing BotMail.py. A 'browse' option to open folders and auto-generate directory path will be added in future versions.  
+- Attachment payloads currently need to be manually loaded by editing BotMail.py. A 'browse' option to open folders and auto-generate directory path will be added in future versions. Option to attach multiple payloads.
+- Sending emails progess bar will be added in future UI with approximate time until finish. 
+- Option for flagging and ignoring error emails during sending process will be added.
 - Custom personal email signatures currently not supported.
