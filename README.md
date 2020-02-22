@@ -6,7 +6,7 @@ Supports attachments, dynamic names, and emphases (bold, color, etc.)
 **Currently in process of developing user interface using PyQt** 
 **Error codes will be documented**
 
-##Use:
+## Use:
 
 **Must enable less secure app access for your email account in order to log in using BotMail (Active TLS Encryption)**
 
@@ -29,18 +29,18 @@ Supports attachments, dynamic names, and emphases (bold, color, etc.)
 
 
 
-##Sending speeds: **Under testing. Will be updated**
+## Sending speeds: **Under testing. Will be updated**
 
 For emails with attachment payloads of <1 MB: ~6 emails per second
 
 
-##Max emails: **Under testing. Will be updated**
+## Max emails: **Under testing. Will be updated**
 
 Depending on the size of the email (with attachment), your email provider may place a cap on the amount of emails sent in a short time period. 
 
 **If first time using program, do not send more than 150 emails of >1.5MB size within a 2 hour period. Google WILL DISABLE your account temporarily for suspicious activity (ranges 2-24 hr suspension). Once less-secure app access has been turned on and program has been used for at least 3 days, then this max capacity can be expanded.**
 
-##Notes:
+## Notes:
 - An 'undo' feature and 'back' button will be added in future versions. 
 - An option to edit contact entries in the table directly will be added in future versions. This will also update the Excel file.
 - Email text body is currently inserted paragraph by paragraph. In future versions, there will be features to (1) type whole email body in program with all typography emphases features and (2) 'browse' for word document (.doc or .docx) with prewritten email and automatically parse and convert to HTML script. In-program text editing also supported for this option.
